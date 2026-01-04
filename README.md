@@ -33,17 +33,7 @@ Bash
 
 pip install opencv-python numpy mss pygetwindow keyboard pydirectinput
 
-
-2. โครงสร้างไฟล์:
-Plaintext
-
-├── mini[image].py      # ไฟล์หลักของโปรแกรม
-├── image/              # โฟลเดอร์เก็บไฟล์ภาพอ้างอิง
-│   ├── back.png        # ภาพหลังไพ่ (ใช้ตรวจจับตำแหน่ง Grid)
-│   ├── btn_restart.png # ปุ่มเริ่มใหม่
-│   └── ...             # ไฟล์ภาพตัวละครต่างๆ
-└── 7k[minigame].exe    # ไฟล์ที่ Build สำเร็จแล้ว
-3. การตั้งค่าที่สำคัญ (Config):
+2. การตั้งค่าที่สำคัญ (Config):
 ในไฟล์ mini[image].py คุณสามารถปรับแต่งค่าเหล่านี้ได้:
 
 TARGET_WINDOW_KEYWORD: ชื่อหน้าต่างเกม
