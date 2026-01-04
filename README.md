@@ -32,6 +32,8 @@ DPI Fix: รองรับการปรับสเกลหน้าจอ�
 Bash
 
 pip install opencv-python numpy mss pygetwindow keyboard pydirectinput
+
+
 2. โครงสร้างไฟล์:
 Plaintext
 
